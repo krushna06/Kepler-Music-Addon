@@ -9,7 +9,7 @@ const { Queue } = require("distube");
 
 module.exports = {
   name: "jump",
-  description: `jump to a song in queue`,
+  description: `Jumps to a song in the queue.`,
   userPermissions: PermissionFlagsBits.Connect,
   botPermissions: PermissionFlagsBits.Connect,
   category: "Music",

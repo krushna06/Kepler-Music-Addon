@@ -9,7 +9,7 @@ const { Queue } = require("distube");
 
 module.exports = {
   name: "remove",
-  description: `remove a song from current queue`,
+  description: `Remove a song from the current queue.`,
   userPermissions: PermissionFlagsBits.Connect,
   botPermissions: PermissionFlagsBits.Connect,
   category: "Music",

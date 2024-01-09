@@ -13,7 +13,7 @@ const { numberEmojis } = require("../../../settings/config");
 
 module.exports = {
   name: "search",
-  description: `search a song by name`,
+  description: `Search a song by its name.`,
   userPermissions: PermissionFlagsBits.Connect,
   botPermissions: PermissionFlagsBits.Connect,
   category: "Music",

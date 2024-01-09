@@ -9,7 +9,7 @@ const { Queue } = require("distube");
 
 module.exports = {
   name: "nowplaying",
-  description: `see which song playing current song`,
+  description: `Show the currently playing song.`,
   userPermissions: PermissionFlagsBits.Connect,
   botPermissions: PermissionFlagsBits.Connect,
   category: "Music",

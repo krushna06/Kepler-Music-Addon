@@ -9,7 +9,7 @@ const { swap_pages } = require("../../../handlers/functions");
 
 module.exports = {
   name: "queue",
-  description: `see current queue with pagination`,
+  description: `View the queue.`,
   userPermissions: PermissionFlagsBits.Connect,
   botPermissions: PermissionFlagsBits.Connect,
   category: "Music",

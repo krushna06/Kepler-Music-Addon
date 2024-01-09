@@ -9,7 +9,7 @@ const { Queue } = require("distube");
 
 module.exports = {
   name: "shuffle",
-  description: `toggle shuffle/unshuffle queue`,
+  description: `Toggle shuffle/unshuffle queue.`,
   userPermissions: PermissionFlagsBits.Connect,
   botPermissions: PermissionFlagsBits.Connect,
   category: "Music",

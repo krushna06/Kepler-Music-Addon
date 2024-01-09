@@ -11,7 +11,7 @@ const { Queue } = require("distube");
 
 module.exports = {
   name: "filter",
-  description: `set filters in current queue`,
+  description: `Set filters in current queue.`,
   userPermissions: PermissionFlagsBits.Connect,
   botPermissions: PermissionFlagsBits.Connect,
   category: "Music",

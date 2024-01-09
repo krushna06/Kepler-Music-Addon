@@ -9,7 +9,7 @@ const { Queue } = require("distube");
 
 module.exports = {
   name: "setupmusic",
-  description: `setup music channel in server`,
+  description: `Setup music channel in the server.`,
   userPermissions: PermissionFlagsBits.ManageChannels,
   botPermissions: PermissionFlagsBits.ManageChannels,
   category: "Settings",

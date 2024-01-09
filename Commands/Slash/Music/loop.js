@@ -9,7 +9,7 @@ const { Queue } = require("distube");
 
 module.exports = {
   name: "loop",
-  description: `toggle loop song/queue/off system`,
+  description: `Toggle loop song/queue/off`,
   userPermissions: PermissionFlagsBits.Connect,
   botPermissions: PermissionFlagsBits.Connect,
   category: "Music",

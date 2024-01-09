@@ -9,7 +9,7 @@ const { Queue } = require("distube");
 
 module.exports = {
   name: "playskip",
-  description: `play song by skip current song Name/Link`,
+  description: `Skip the current song and play new one.`,
   userPermissions: PermissionFlagsBits.Connect,
   botPermissions: PermissionFlagsBits.Connect,
   category: "Music",

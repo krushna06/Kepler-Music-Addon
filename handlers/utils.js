@@ -187,7 +187,7 @@ module.exports = async (client) => {
       .setImage(
         guild.banner
           ? guild.bannerURL({ size: 4096 })
-          : `http://cdn.wallpaperinhd.net/wp-content/uploads/2018/11/02/Music-Background-Wallpaper-025.jpg`
+          : `https://media.discordapp.net/attachments/1066790786135498883/1088400863795625984/keplerinfo.png?ex=65a8f5cb&is=659680cb&hm=47b5738e9a511f86805ab2feb0d7e77853156a75b89fe4423d5984332588412d&=&format=webp&quality=lossless&width=683&height=566`
       )
       .setFooter({
         text: guild.name,

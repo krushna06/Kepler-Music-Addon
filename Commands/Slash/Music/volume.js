@@ -9,7 +9,7 @@ const { Queue } = require("distube");
 
 module.exports = {
   name: "volume",
-  description: `change volume of current queue`,
+  description: `Change volume of current queue/song.`,
   userPermissions: PermissionFlagsBits.Connect,
   botPermissions: PermissionFlagsBits.Connect,
   category: "Music",

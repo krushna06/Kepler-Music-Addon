@@ -9,7 +9,7 @@ const { skip } = require("../../../handlers/functions");
 
 module.exports = {
   name: "skip",
-  description: `skip to next song in queue`,
+  description: `Skips to the next song in the queue.`,
   userPermissions: PermissionFlagsBits.Connect,
   botPermissions: PermissionFlagsBits.Connect,
   category: "Music",

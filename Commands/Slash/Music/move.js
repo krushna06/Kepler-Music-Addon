@@ -9,7 +9,7 @@ const { Queue } = require("distube");
 
 module.exports = {
   name: "move",
-  description: `move a song in current queue`,
+  description: `Move a song position in the queue.`,
   userPermissions: PermissionFlagsBits.Connect,
   botPermissions: PermissionFlagsBits.Connect,
   category: "Music",

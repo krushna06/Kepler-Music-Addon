@@ -8,7 +8,7 @@ const { Queue } = require("distube");
 
 module.exports = {
   name: "replay",
-  description: `replay current song of queue`,
+  description: `Replay the current song.`,
   userPermissions: PermissionFlagsBits.Connect,
   botPermissions: PermissionFlagsBits.Connect,
   category: "Music",

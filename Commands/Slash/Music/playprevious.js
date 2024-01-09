@@ -8,7 +8,7 @@ const { Queue } = require("distube");
 
 module.exports = {
   name: "playprevious",
-  description: `play previous song of queue`,
+  description: `Play the previous song.`,
   userPermissions: PermissionFlagsBits.Connect,
   botPermissions: PermissionFlagsBits.Connect,
   category: "Music",

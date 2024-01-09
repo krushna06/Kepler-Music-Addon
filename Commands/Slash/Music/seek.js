@@ -9,7 +9,7 @@ const { Queue } = require("distube");
 
 module.exports = {
   name: "seek",
-  description: `seek then current song`,
+  description: `Seek then current song in seconds.`,
   userPermissions: PermissionFlagsBits.Connect,
   botPermissions: PermissionFlagsBits.Connect,
   category: "Music",
@@ -22,7 +22,7 @@ module.exports = {
   options: [
     {
       name: "amount",
-      description: `Give seek amount in number`,
+      description: `Give seek amount in number.`,
       type: ApplicationCommandOptionType.Number,
       required: true,
     },

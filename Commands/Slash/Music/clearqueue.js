@@ -8,7 +8,7 @@ const { Queue } = require("distube");
 
 module.exports = {
   name: "clearqueue",
-  description: `clear current queue in server`,
+  description: `Clears the current queue.`,
   userPermissions: PermissionFlagsBits.Connect,
   botPermissions: PermissionFlagsBits.Connect,
   category: "Music",

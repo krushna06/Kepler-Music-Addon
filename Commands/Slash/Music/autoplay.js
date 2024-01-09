@@ -8,7 +8,7 @@ const { Queue } = require("distube");
 
 module.exports = {
   name: "autoplay",
-  description: `toggle autoplay on/off`,
+  description: `Toggle autoplay on/off.`,
   userPermissions: PermissionFlagsBits.Connect,
   botPermissions: PermissionFlagsBits.Connect,
   category: "Music",

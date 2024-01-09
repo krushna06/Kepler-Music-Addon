@@ -9,7 +9,7 @@ const { Queue } = require("distube");
 
 module.exports = {
   name: "play",
-  description: `play song by song Name/Link`,
+  description: `Play song using song name/link.`,
   userPermissions: PermissionFlagsBits.Connect,
   botPermissions: PermissionFlagsBits.Connect,
   category: "Music",

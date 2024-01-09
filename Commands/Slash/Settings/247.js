@@ -8,7 +8,7 @@ const { Queue } = require("distube");
 
 module.exports = {
   name: "247",
-  description: `toggle 24/7 system on/off`,
+  description: `Toggle 24/7 system on/off.`,
   userPermissions: PermissionFlagsBits.ManageGuild,
   botPermissions: PermissionFlagsBits.EmbedLinks,
   category: "Settings",

@@ -8,7 +8,7 @@ const { Queue } = require("distube");
 
 module.exports = {
   name: "autoresume",
-  description: `setup autoresume in your server`,
+  description: `Setup autoresume in the server.`,
   userPermissions: PermissionFlagsBits.ManageGuild,
   botPermissions: PermissionFlagsBits.EmbedLinks,
   category: "Settings",

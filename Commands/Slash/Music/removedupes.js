@@ -8,7 +8,7 @@ const { Queue } = require("distube");
 
 module.exports = {
   name: "removedupes",
-  description: `remove duplicate songs from queue`,
+  description: `Remove duplicate songs from the queue.`,
   userPermissions: PermissionFlagsBits.Connect,
   botPermissions: PermissionFlagsBits.Connect,
   category: "Music",
